@@ -2,7 +2,6 @@ import { ISaveCalendarRepository } from "../composite/ii-domain-contract-repo-sa
 
 export class DBSaveCalendar implements ISaveCalendarRepository{
     async save(calendar: ISaveCalendarRepository.Params): Promise<ISaveCalendarRepository.Params> {
-        console.log(`repositorio: ${calendar}`)
         return calendar;
     }
 }

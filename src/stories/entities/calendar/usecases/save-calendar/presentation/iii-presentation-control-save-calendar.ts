@@ -7,7 +7,7 @@ export class SaveCalendarController implements Controller {
     constructor(private readonly saveCalendar: ISaveCalendar) {}
 
     async handle(request: SaveCalendarControl.Request): Promise<HttpResponse> {
-        const calendar =  this.saveCalendar.exec(request)
+        const calendar =  await this.saveCalendar.exec(request)
         return ok(calendar);
     }
 }

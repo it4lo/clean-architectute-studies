@@ -5,11 +5,10 @@ import { ISaveCalendarRepository } from "..";
 
 export class SaveCalendarImplementation implements ISaveCalendar{
     constructor(private readonly saveCalendarRepository: ISaveCalendarRepository){}
-    async exec (calendar: ISaveCalendar.Params): Promise<ISaveCalendar.Params> {
-        // Verificar a existência de conflito de datas 
-        // Validação de campos
-        // Envio de emails
-        console.log(`usecase: ${calendar}`)
+    
+    async exec (calendar: ISaveCalendar.Params): Promise<ISaveCalendar.Params> {    
         return this.saveCalendarRepository.save(calendar);
     }
 }
+
+
