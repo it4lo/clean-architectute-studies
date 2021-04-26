@@ -1,5 +1,5 @@
-import { ISaveCalendar } from "./i-domain-iusecase-save-calendar"
-
+import { ISaveCalendar } from "./ii-domain-iusecase-save-calendar"
+//Port I/O: O
 export interface ISaveCalendarRepository {
     save: (calendar: ISaveCalendar.Params) => Promise<ISaveCalendar.Params>
 }

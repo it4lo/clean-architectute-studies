@@ -1,3 +1,3 @@
-export * from './composite/i-domain-iusecase-save-calendar';
-export * from './composite/ii-data-icontract-repo-save-calendar';
-export * from './composite/ii-data-implement-save-calendar';
+export * from './composite/ii-domain-iusecase-save-calendar';
+export * from './composite/ii-domain-contract-repo-save-calendar';
+export * from './composite/ii-domain-implement-save-calendar';
