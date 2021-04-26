@@ -1,6 +1,6 @@
 {
   "name": "clean-node-api",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "Testes clean architecture baseado em Robertin C. Margin e estrutura de pastas baseada no Manguinhos",
   "author": "Ítalo Almeida",
   "scripts": {
