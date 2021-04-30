@@ -4,6 +4,5 @@ import { adaptExpress } from "../adapters";
 import { Router } from "express";
 
 export default (router: Router): void => {
-    router.post('/scheduling', adaptExpress(makeSaveCalendarController()))
-    
+    router.post('/scheduling', adaptExpress(makeSaveCalendarController()))   
 }
